@@ -1,0 +1,17 @@
+.footer{
+    text-align: center;
+    font-size: var(--normal-font-size);
+}
+
+@media screen and (max-width:576px) {
+    .footer{
+      font-size: var(--normal-font-size);
+      }
+}
+
+/* small screen */
+@media screen and (max-width:350px) {
+  .footer{
+    font-size: var(--normal-font-size);
+  }
+}
